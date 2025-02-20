@@ -1,3 +1,38 @@
 body {
     background-image: url(../images/christmasback.jpg);
 }
+
+h1 {
+    color: green;
+    font-family: serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    font-family: serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h3 {
+    color: darkgreen;
+    font-family: serif;
+    font-size: larger;
+    text-align: center;
+
+}
+
+p {
+    color: blue;
+    font-family: sans-serif;
+
+}
+
+img {
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+    /* this set of 3 commands centers. 10px is spacing top and bottom, auto is left and right*/
+}
