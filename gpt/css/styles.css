@@ -1,0 +1,103 @@
+/* styles.css - Fuego y Sazón */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fffaf0;
+    color: #333;
+}
+
+header {
+    background-color: #ff7f50;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+section {
+    padding: 2rem;
+}
+
+.about,
+.categories,
+.gallery,
+.recipe-week {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categories li {
+    background-color: #ffa07a;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-week {
+    background-color: #ffe4e1;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.recipe-week button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.recipe-week button:hover {
+    background-color: #ff6347;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ff7f50;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .categories ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}

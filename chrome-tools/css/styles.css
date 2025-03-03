@@ -1,0 +1,50 @@
+body {
+    background: #57bd5a;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e9e9be;
+}
+
+h1 {
+    text-align: center;
+    font-size: xxx-large;
+    color: yellow;
+}
+
+h2,
+h3 {
+    margin-left: 50px;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: large;
+}
+
+ul li {
+    list-style-type: square;
+    list-style-position: outside;
+    color: #edc8c8;
+    font-size: x-large;
+}
+
+ol {
+    list-style-type: armenian;
+    font-size: x-small;
+    color: indigo;
+}
+
+dd {
+    color: black;
+}
+
+dt {
+    color: red;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuego y Sazón - Casual Mexican Street Food Recipes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #fffaf0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff7f50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .about,
+        .categories,
+        .gallery,
+        .recipe-week {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .categories ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .categories li {
+            background-color: #ffa07a;
+            padding: 1rem;
+            margin: 0.5rem;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            width: 150px;
+            text-align: center;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .recipe-week {
+            background-color: #ffe4e1;
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ff7f50;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            .categories ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Fuego y Sazón</h1>
+        <p>Casual Mexican Street Food Recipes</p>
+    </header>
+
+    <section class="about">
+        <h2>About</h2>
+        <p>Welcome to <strong>Fuego y Sazón</strong> – your go-to spot for delicious, easy-to-make Mexican street food
+            recipes. Our focus is on casual cooking that brings the vibrant flavors of Mexico right to your kitchen. No
+            frills, just great food!</p>
+    </section>
+
+    <section class="categories">
+        <h2>Recipe Categories</h2>
+        <ul>
+            <li>Tacos</li>
+            <li>Tortas</li>
+            <li>Quesadillas</li>
+            <li>Sopes</li>
+            <li>Elotes</li>
+            <li>Aguas Frescas</li>
+        </ul>
+    </section>
+
+    <section class="gallery">
+        <h2>Gallery of Finished Dishes</h2>
+        <img src="taco.jpg" alt="Tasty Tacos">
+        <img src="torta.jpg" alt="Delicious Torta">
+        <img src="quesadilla.jpg" alt="Cheesy Quesadilla">
+        <img src="sopes.jpg" alt="Savory Sopes">
+        <img src="elotes.jpg" alt="Mexican Street Corn">
+        <img src="aguas_frescas.jpg" alt="Refreshing Aguas Frescas">
+    </section>
+
+    <section class="recipe-week">
+        <h2>Recipe of the Week</h2>
+        <h3>Classic Tacos al Pastor</h3>
+        <p>Experience the rich, smoky flavors of traditional Tacos al Pastor. Served with pineapple, cilantro, and
+            onions – this dish is sure to be a favorite!</p>
+        <button>View Recipe</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fuego y Sazón. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
