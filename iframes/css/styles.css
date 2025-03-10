@@ -1,0 +1,21 @@
+body {
+    background: black;
+    color: ivory;
+}
+
+h1 {
+    font-size: xxx-large;
+    text-align: center;
+}
+
+h2 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    width: 560px;
+    height: 315px;
+    margin: 20px auto;
+}
