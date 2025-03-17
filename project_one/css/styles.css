@@ -16,3 +16,37 @@ nav a {
     border: 2px solid white;
     border-radius: 15px;
 }
+
+p {
+    font-size: medium;
+}
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+h2 {
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+h3 {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+img,
+figcaption {
+
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
