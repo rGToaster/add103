@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>JavaScript Image Change</h1>
+        <!-- (div>img)*5-->
+        <div class="grid-container">
+            <div><img src="images/dq-celebrate.png" alt="celebrate"></div>
+            <div><img src="images/dq-debug-magnify.png" alt="magnify glass"
+                    onclick='change("images/dq-debug-magnify.png")'></div>
+            <div><img src="images/dq-flowchart.png" alt="flowchart" onclick='change("images/dq-flowchart.png")'></div>
+            <div><img src="images/dq-overhead.png" alt="overhead" onclick='change("images/dq-overhead.png")'></div>
+            <div><img src="images/dq-stop.png" alt="stop" onclick='change("images/dq-stop.png")'></div>
+        </div>
+        <div>
+            <img src="images/dq-celebrate.png" id="large">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
