@@ -1,0 +1,39 @@
+body {
+    background: bisque;
+    background: linear-gradient(90deg, rgb(109, 208, 34) 0%, rgb(198, 195, 202) 0%, rgba(255, 214, 0, 1) 100%);
+}
+
+#columns {
+
+    column-count: 5;
+    column-gap: 5px;
+}
+
+.card {
+    -webkit-box-shadow: 10px 10px 10px 10px rgba(2, 0, 36, 103);
+    box-shadow: 10px 10px 10px 10px rgba(2, 0, 36, 103);
+    background: ivory;
+    padding: 10px;
+    min-height: 500px;
+    width: 29%;
+    margin: 20px 1%;
+    float: left;
+    font-family: arial;
+    line-height: 1.5;
+}
+
+.card img {
+    -webkit-box-shadow: 10px 10px 10px 10px rgba(2, 0, 36, 103);
+    box-shadow: 10px 10px 10px 10px rgba(2, 0, 36, 103);
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+p {
+    text-shadow: 2px 2px 2px #12E7FF;
+    outline: 1px dotted #8E1CFF;
+}
