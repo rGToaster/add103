@@ -1,6 +1,24 @@
-
 .card {
   background-color: #f5f5dc;
   color: #222;
   border: 3px dashed darkgreen;
+}
+
+.care-body {
+  color: orange;
+  font-size: 60px;
+}
+
+.container {
+  background: pink;
+
+}
+
+h1 {
+  background: green;
+
+}
+
+.anthony {
+  background: blue;
 }
