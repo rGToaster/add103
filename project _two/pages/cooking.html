@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>Food</title>
 </head>
+<!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
 
 <body>
     <div class="container">
@@ -21,90 +22,182 @@
             <a href="movies.html">Movies</a>
         </nav>
         <h1>Top 5 foods at the moment (i was hungry)</h1>
-        <p> For this top 5 list it is bias towards comfort food since i wrote this when I hungry. Probably should make
-            something from this list.</p>
-        <img src="../images/mushrooms-8058299_1920.jpg" alt="cooking">
-        <figcaption></figcaption>
-        <p>Pozole is a traditional Mexican soup or stew made with hominy (nixtamalized corn) and typically features pork
-            or chicken
-            as the main protein. It's simmered for hours with garlic, onions, and spices like oregano and cumin,
-            creating a rich,
-            flavorful broth. Pozole comes in three main varieties—rojo (red), verde (green), and blanco
-            (white)—depending on the
-            added chilies and herbs. It's commonly served with fresh toppings like shredded lettuce or cabbage,
-            radishes, lime,
-            oregano, and tostadas, making it both hearty and refreshing. Often enjoyed during celebrations and holidays,
-            pozole is a
-            beloved staple of Mexican cuisine.</p>
-        <img src="../images/pozole.jpg" alt="pozole">
-        <figcaption>Bowl of red pozole</figcaption>
-        <p>Tacos de asada are a classic and beloved Mexican street food made with grilled, marinated beef—usually skirt
-            or flank
-            steak—served on warm corn tortillas. The meat is typically seasoned with ingredients like lime juice,
-            garlic, and spices
-            before being seared to perfection for a smoky, savory flavor. They're often topped simply with chopped
-            onions, fresh
-            cilantro, salsa, and a squeeze of lime. Easy to eat and packed with bold flavor, tacos de asada are a staple
-            at taco
-            stands, backyard cookouts, and Mexican food festivals alike.</p>
-        <img src="../images/tacos-7759107_640.jpg" alt="tacos">
-        <figcaption>a pair of tacos de asada</figcaption>
-        <p>Waffles are a popular breakfast dish made from a batter of flour, eggs, milk, and butter, cooked between two
-            hot plates
-            to create a crisp, grid-like texture. Golden and crunchy on the outside, soft and fluffy on the inside,
-            waffles are
-            endlessly versatile. They can be topped with butter, syrup, fruit, whipped cream, or even fried chicken for
-            a savory
-            twist. Originating in Europe, waffles have become a worldwide favorite thanks to their satisfying texture
-            and
-            customizable flavor combinations.</p>
-        <img src="../images/waffle.jpg" alt="waffle">
-        <figcaption>just waffles</figcaption>
-        <p>Pizza is a globally loved dish that originated in Italy, traditionally made with a thin, round crust topped
-            with tomato
-            sauce, cheese, and various toppings like pepperoni, vegetables, or olives. Baked in an oven until the cheese
-            melts and
-            the crust turns golden, pizza is known for its perfect balance of crispy, chewy, and gooey textures. Styles
-            vary
-            widely—from classic Neapolitan to deep-dish Chicago and thin-crust New York. Whether enjoyed plain or piled
-            high with
-            toppings, pizza's universal appeal lies in its bold flavors, shareable nature, and endless customizability.
-        </p>
-        <img src="../images/pizza-3010062_1920.jpg" alt="pizza">
-        <figcaption>pizza mmmmmmmmmm</figcaption>
-        <p>Cheesecake is a rich, creamy dessert made primarily from cream cheese, sugar, and eggs, set on a graham
-            cracker crust.
-            The filling is smooth and velvety, often flavored with vanilla, lemon, or other variations. Cheesecake can
-            be baked or
-            chilled, and is sometimes topped with fruit, chocolate, or caramel for extra sweetness and texture. It has a
-            dense yet
-            light texture that melts in your mouth, making it a favorite for special occasions and celebrations. With
-            endless flavor
-            variations, from classic New York-style to fruity or chocolate versions, cheesecake offers a decadent treat
-            for any
-            dessert lover.
-        </p>
-        <img src="../images/cheesecake-4371777_1920.jpg" alt="cheesecake">
-        <figcaption>should have made a cheesecake tierlist</figcaption>
-        <p>To wrap it up, my top 5 foods each bring something unique to the table. Pozole offers a comforting, rich
-            broth that's
-            perfect for any occasion, while tacos de asada serve up bold, smoky flavors in every bite. Waffles are the
-            ultimate
-            versatile treat, whether sweet or savory. Pizza is the classic favorite with endless variations, and
-            cheesecake is the
-            indulgent dessert that hits all the right notes with its creamy, decadent texture. Each of these foods has
-            earned its
-            spot for their unforgettable taste and universal appeal, making them stand out in their own delicious way.
-        </p>
+        <div class="movie">
+            <img src="../images/mushrooms-8058299_1920.jpg" alt="generic mushrooms">
+
+            <p>This top 5 list is biased towards comfort food since I wrote it while hungry. Probably should make
+                something
+                from this list. Food is more than just fuel—it’s comfort, culture, and pure joy on a plate. This list
+                highlights my current top 5
+                favorite foods, chosen not just for taste but for the memories and satisfaction they bring. Whether it's
+                the
+                bold, smoky
+                flavor of tacos de asada or the creamy indulgence of cheesecake, each dish on this list earned its spot
+                for
+                a reason.
+                Admittedly, I was pretty hungry while writing this, so comfort foods definitely won out. From savory
+                Mexican
+                classics
+                like pozole to universally loved staples like pizza and waffles, these are the meals I crave the most
+                right
+                now. If
+                you're looking for food that hits the spot every time, you're in the right place.</p>
+        </div>
+
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Slides -->
+            <div class="mySlides fade">
+                <h2>Number 1: Pozole</h2>
+                <img src="../images/pozole.jpg" style="width:100%" alt="Bowl of red pozole" />
+                <figcaption>Bowl of red pozole</figcaption>
+                <p>Pozole is a traditional Mexican soup or stew made with hominy (nixtamalized corn) and typically
+                    features pork
+                    or chicken
+                    as the main protein. It's simmered for hours with garlic, onions, and spices like oregano and cumin,
+                    creating a rich,
+                    flavorful broth. Pozole comes in three main varieties—rojo (red), verde (green), and blanco
+                    (white)—depending on the
+                    added chilies and herbs. It's commonly served with fresh toppings like shredded lettuce or cabbage,
+                    radishes, lime,
+                    oregano, and tostadas, making it both hearty and refreshing. Often enjoyed during celebrations and
+                    holidays,
+                    pozole is a
+                    beloved staple of Mexican cuisine.</p>
+
+            </div>
+
+            <div class="mySlides fade">
+                <h2>Number 2: Tacos de asada</h2>
+                <img src="../images/tacos-7759107_640.jpg" style="width:100%" alt="Tacos de asada" />
+                <figcaption>A pair of tacos de asada</figcaption>
+                <p>Tacos de asada are a classic and beloved Mexican street food made with grilled, marinated
+                    beef—usually skirt
+                    or flank
+                    steak—served on warm corn tortillas. The meat is typically seasoned with ingredients like lime
+                    juice,
+                    garlic, and spices
+                    before being seared to perfection for a smoky, savory flavor. They're often topped simply with
+                    chopped
+                    onions, fresh
+                    cilantro, salsa, and a squeeze of lime. Easy to eat and packed with bold flavor, tacos de asada are
+                    a staple
+                    at taco
+                    stands, backyard cookouts, and Mexican food festivals alike.</p>
+            </div>
+
+            <div class="mySlides fade">
+                <h2>Number 3: Waffles</h2>
+                <img src="../images/waffle.jpg" style="width:100%" alt="Waffles" />
+                <figcaption>Just waffles</figcaption>
+                <p>Waffles are a popular breakfast dish made from a batter of flour, eggs, milk, and butter, cooked
+                    between two
+                    hot plates
+                    to create a crisp, grid-like texture. Golden and crunchy on the outside, soft and fluffy on the
+                    inside,
+                    waffles are
+                    endlessly versatile. They can be topped with butter, syrup, fruit, whipped cream, or even fried
+                    chicken for
+                    a savory
+                    twist. Originating in Europe, waffles have become a worldwide favorite thanks to their satisfying
+                    texture
+                    and
+                    customizable flavor combinations.</p>
+
+            </div>
+
+            <div class="mySlides fade">
+                <h2>Number 4: Pizza</h2>
+                <img src="../images/pizza-3010062_1920.jpg" style="width:100%" alt="Pizza" />
+                <figcaption>Pizza mmmmmmmmmm</figcaption>
+                <p>Pizza is a globally loved dish that originated in Italy, traditionally made with a thin, round crust
+                    topped
+                    with tomato
+                    sauce, cheese, and various toppings like pepperoni, vegetables, or olives. Baked in an oven until
+                    the cheese
+                    melts and
+                    the crust turns golden, pizza is known for its perfect balance of crispy, chewy, and gooey textures.
+                    Styles
+                    vary
+                    widely—from classic Neapolitan to deep-dish Chicago and thin-crust New York. Whether enjoyed plain
+                    or piled
+                    high with
+                    toppings, pizza's universal appeal lies in its bold flavors, shareable nature, and endless
+                    customizability.
+                </p>
+
+            </div>
+
+            <div class="mySlides fade">
+                <h2>Number 5: Cheesecake</h2>
+                <img src="../images/cheesecake-4371777_1920.jpg" style="width:100%" alt="Cheesecake" />
+                <figcaption>Should have made a cheesecake tier list</figcaption>
+                <p>Cheesecake is a rich, creamy dessert made primarily from cream cheese, sugar, and eggs, set on a
+                    graham
+                    cracker crust.
+                    The filling is smooth and velvety, often flavored with vanilla, lemon, or other variations.
+                    Cheesecake can
+                    be baked or
+                    chilled, and is sometimes topped with fruit, chocolate, or caramel for extra sweetness and texture.
+                    It has a
+                    dense yet
+                    light texture that melts in your mouth, making it a favorite for special occasions and celebrations.
+                    With
+                    endless flavor
+                    variations, from classic New York-style to fruity or chocolate versions, cheesecake offers a
+                    decadent treat
+                    for any
+                    dessert lover.
+                </p>
+
+            </div>
+
+            <!-- Navigation arrows -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- Caption container (optional, JS can insert alt text here) -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnails -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="../images/pozole.jpg" style="width:100%" onclick="currentSlide(1)"
+                    alt="Pozole" />
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../images/tacos-7759107_640.jpg" style="width:100%"
+                    onclick="currentSlide(2)" alt="Tacos" />
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../images/waffle.jpg" style="width:100%" onclick="currentSlide(3)"
+                    alt="Waffles" />
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../images/pizza-3010062_1920.jpg" style="width:100%"
+                    onclick="currentSlide(4)" alt="Pizza" />
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../images/cheesecake-4371777_1920.jpg" style="width:100%"
+                    onclick="currentSlide(5)" alt="Cheesecake" />
+            </div>
+        </div>
+
+        <!-- Footer -->
         <footer>
             <p style="font-size: 12px; color: black; text-align: center; margin-top: 40px;">
                 Content co-authored with the assistance of
-                <a href="https://openai.com/chatgpt" target="_blank" style="color: pink; text-decoration: underline;">
-                    ChatGPT
-                </a>, an AI developed by OpenAI.
+                <a href="https://openai.com/chatgpt" target="_blank"
+                    style="color: pink; text-decoration: underline;">ChatGPT</a>
             </p>
         </footer>
 
+        <script src="../script.js"></script>
     </div>
 </body>
 
